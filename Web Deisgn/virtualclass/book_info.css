@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+.table_title{
+	width:180px;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+#main_wrape{
+	width:550px;
+	height:570px;
+	background:#CCC;
+	border:1px solid #666666;
+	border-radius:5px;
+	float:left;
+}
+
+#sub_name{
+	float:left;
+	width:200px;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	background:#0072c6;
+	color:#012b4a;
+	padding:15px 0 10px 0;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#author{
+	float:left;
+	width:163px;
+	font-weight:bold;
+	text-align:center;
+	font-size:18px;
+	background:#0072c6;
+	color:#012b4a;
+	border-left:1px solid #012b4a;
+	border-right:1px solid #012b4a;
+	padding:15px 5px 10px 10px;
+	border-bottom:1px solid #012b4a;
+}
+
+#ref_book{
+	float:right;
+	width:167px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	background:#0072c6;
+	color:#012b4a;
+	padding:15px 0 10px 0;
+	border-bottom:1px solid #012b4a;
+	border-left:1px solid #012b4a;
+
+}
+
+
+#sub1{
+	width:171px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0 10px 30px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#pub1{
+	//background:#CF0;
+	width:163px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0 10px 15px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#ref1{
+	//background:#CF3;
+	float:left;
+	width:153px;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0px 10px 15px;
+	border-bottom:1px solid #012b4a;
+	
+}
+
+#sub2{
+	width:171px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	visibility:visible;
+	padding:18px 0 10px 30px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+
+#pub2{
+	//background:#CF0;
+	width:163px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0 10px 15px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#ref2{
+	//background:#CF3;
+	float:left;
+	width:153px;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0px 10px 15px;
+	border-bottom:1px solid #012b4a;
+	
+}
+
+#sub3{
+	width:171px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	visibility:visible;
+	padding:18px 0 10px 30px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+
+#pub3{
+	//background:#CF0;
+	width:163px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0 10px 15px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#ref3{
+	//background:#CF3;
+	float:left;
+	width:153px;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0px 10px 10px;
+	border-bottom:1px solid #012b4a;
+	
+}
+
+
+
+#sub4{
+	width:171px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	visibility:visible;
+	padding:18px 0 30px 30px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+
+#pub4{
+	//background:#CF0;
+	width:163px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0 30px 15px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#ref4{
+	//background:#CF3;
+	float:left;
+	width:153px;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:18px 0px 10px 15px;
+	border-bottom:1px solid #012b4a;
+	
+}
+
+
+#sub5{
+	width:171px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	visibility:visible;
+	padding:18px 0 30px 30px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+
+#pub5{
+	//background:#CF0;
+	width:163px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:30px 0  39px 15px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#ref5{
+	//background:#CF3;
+	float:left;
+	width:153px;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	padding:30px 0px 39px 15px;
+	border-bottom:1px solid #012b4a;
+	
+}
+
+
+#sub6{
+	width:171px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	visibility:visible;
+	padding:18px 0 30px 30px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#pub6{
+	width:171px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	visibility:visible;
+	padding:30px 0 60px 18px;
+	border-right:1px solid #012b4a;
+	border-bottom:1px solid #012b4a;
+}
+
+#ref6{
+	width:180px;
+	float:left;
+	font-size:1.2em;
+	text-align:left;
+	color:#333;
+	visibility:visible;
+	padding:30px 0 60px 15px;
+	border-bottom:1px solid #012b4a;
+}

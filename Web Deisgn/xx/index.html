@@ -1,0 +1,151 @@
+<!doctype html>
+<!--This is my Home Page -->
+<html>
+<head>
+<title>Home|  FeToBe</title>
+<link rel="icon" href="ee.ico" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script language="javascript">
+function cleartxt()
+{
+	document.getElementById("search").value=" ";
+}
+</script>
+<SCRIPT type="text/javascript">
+var quotations = new Array()
+quotations[0]= "<b id='newcolor'>NEWS & EVENTS</b><hr><b id='detail'>Gnuify</b><br>It is open sourse semina"
+
+quotations[1]="<b id='newcolor'>NEWS & EVENTS</b><hr><b id='detail'>Fimal HSC Time Table</b><br>This is final HSC time table"
+
+quotations[2]="<b id='newcolor'>NEWS & EVENTS</b><hr><b id='detail'>SISE SPARK'13</b><br>Spark is event held."
+
+quotations[3]="<b id='newcolor'>NEWS & EVENTS</b><hr><b id='detail'>PICT INC'13</b><br>It is event takes place at PICT clg"
+
+quotations[4]="<b id='newcolor'>NEWS & EVENTS</b><hr><b id='detail'>Mood Indigo</b><br>Ever waiting IIT-B Tech fest is here."
+function display()
+{
+a=Math.floor(Math.random()*quotations.length)
+document.getElementById('quotation').innerHTML=quotations[a]
+setTimeout("display()",1000)
+}
+</SCRIPT>
+
+</head>
+
+<body>
+
+<div id="main_header">
+<div id="header_wrape">
+		<div id="title">
+	<a href="about.html"  style="float:right;"><img  src="about.jpg" align="right"></a>
+			</div>
+			<hr/>
+
+<div id="menu">
+	<li><a href="index.html">Home</a><a href="#">FE</a></li>
+	<li><a href="#">SE</a></li>
+	<li><a href="#">TE</a></li>
+	<li><a href="#">BE</a><a href="#">Projects</a></li>
+	<li><a href="#">Placement</a></li>
+    <li><a href="#">Login</a></li>
+</div>
+
+<div id="head_back">
+  <div id="head_bottom">
+   
+  LOOKING FOR SOMETHING ?
+
+<form  style="padding-top:10px; " onClick="clear();">
+Search:
+  <input  id="search" type="text" value="Enter a Keyword" style="font-weight:lighter" onClick="cleartxt();">
+<input type="button"  style=" background-color:#000; color:#FFF; border:none;" value="Go" onClick="cleartxt();" >
+</form>
+
+</div>
+
+<div id="line">
+</div>
+
+<div id="news">
+
+<font color="#FFFFFF" >NEWS & EVENTS<br></font>
+<img src="news.png" width="80px" style="float:left;">
+<font size="3"> Stay updated with latest happening across all collages and courses</font>
+</div>
+
+<div id="line">
+</div>
+
+<div id="ebook">
+<font  color="#FFFFFF"><b>E-BOOK STORE</b></font>
+<br>
+
+<img src="ebook.jpg" width="70px" style="float:left;" height="80px;">
+
+<font  size="3" color="#CCC" style="float:none; padding-left:10px;">Download all types of </font><font color="#CCC" style="padding-left:10px;">E-books for free</font>
+</div>
+
+
+<div id="line">
+</div>
+
+<div id="cutoff">
+
+<font color="#FFFFFF"><b>FORUM</b></font>
+<br>
+<img src="forum2.jpg" width="70px" height="80px" style="float:left;">
+<font size="3" color="#CCC" style="float:none; padding-left:15px; padding-top:70px;"><b > Interact and Discuess</b></font>
+</div>
+
+</div>
+</div>
+
+<div id="quotation" style="width:170px; height:130px; float:left; border:1px solid; border-radius:10px; padding-left:10px; padding-top:10px; padding-right:5px;" align="left">
+<SCRIPT type="text/javascript">display()</SCRIPT>
+</div>
+
+<div id="option"> 
+<div id="option1">
+
+<a href="#">
+<b style="font-size:19px; font:'Arial Black', Gadget, sans-serif;color:#333;">ENGINEERING</b><br>
+<img src="engi.png" width="150px" height="130px" style="float:left;;">
+Everything you need during engineering you can find it here.
+Perhapes the largest database you will ever come across online for University of Pune.
+</a>
+
+<div id="list">
+<ul>
+<a href="#"><li style="color:#09C;">Programes </li></a>
+<a href="#"><li style="color:#09C;">Syllabus</li></a>
+<a href="#"><li style="color:#09C;">Popular E-Books</li></a>
+
+</ul>
+
+<ul>
+<a href="#"><li style="color:#09C;">Result</li></a>
+<a href="#"><li style="color:#09C;">Cut-Off </li></a>
+<a href="#"><li style="color:#09C;">Projects</li></a>
+
+</ul>
+</div>
+
+</div>
+
+<div id="option2">
+<b style="font-size:19px; color:#333;">PLACEMENTS</b>
+<br>
+<img src="job.png" style="float:left; width:80px;">
+
+<b style="font-weight:normal; padding-left:30px;">Getting your first job through campus placements may not be the </b>
+<b style="font-weight:normal; padding-left:30px;">easiest task arond. Well, you can use some help.</b>
+<br>
+<br>
+
+<a href="#" style="padding-left:30px;">VIEWE MORE..</a>
+</div>
+</div>
+</body>
+
+</html>

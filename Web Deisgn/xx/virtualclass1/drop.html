@@ -1,0 +1,43 @@
+<html>  
+  
+<head>  
+<title>PING</title>  
+  
+<script  language=javascript type="text/javascript">  
+  
+var month = new Array("January","February","March","April","May","June",  
+"July","August","September","October","November","December");   
+  
+var selObj = document.forms["drop_list"].elements["Month_list"];  
+  
+for (var i=0; i < month.length;++i)  
+{  
+  
+addOption(selObj, month[i], month[i]);  
+}  
+  
+function addOption(selectbox,text,value )  
+{  
+document.write("ramesh");  
+var optn = document.createElement("OPTION");  
+optn.text = text;  
+optn.value = value;  
+selectbox.options.add(optn);  
+}  
+  
+</script>  
+</head>  
+  
+  
+<body>  
+  
+<FORM name="drop_list" action="NextPage.jsp" method="POST" >  
+  
+<SELECT NAME="Month_list">  
+<option value="" >Month list</option>  
+</SELECT>  
+  
+</FORM>  
+  
+</body>   
+</html>

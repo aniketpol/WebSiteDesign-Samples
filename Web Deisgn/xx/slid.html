@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<SCRIPT type="text/javascript">
+var quotations = new Array()
+quotations[0]= "<b>Gnuify</b><br/>It is open sourse seminar"
+
+quotations[1]= "<b>Fimal HSC Time Table</b><br/>This is final HSC time table"
+
+quotations[2]= "<b>SISE SPARK'13</b><br/>Spark is event held."
+
+quotations[3]= "<b>PICT INC'13</b></br>It is event takes place at PICT clg"
+
+quotations[4]= "<b>Mood Indigo</b><br/>Ever waiting IIT-B Tech fest is here."
+function display()
+{
+a=Math.floor(Math.random()*quotations.length)
+document.getElementById('quotation').innerHTML=quotations[a]
+setTimeout("display()",1000)
+}
+</SCRIPT>
+</head>
+
+<body>
+<div id="quotation" style="width:200px; height:300px; background-color:#CCC; padding:15px 0 0 15px;">
+<SCRIPT type="text/javascript">display()</SCRIPT>
+</div>
+</body>
+</html>
